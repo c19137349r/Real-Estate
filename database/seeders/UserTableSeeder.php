@@ -46,7 +46,40 @@ class UserTableSeeder extends Seeder
                 'password' => Hash::make('111'),
                 'role' => 'user',
                 'status' => 'active'
-            ]
+            ],
+            // Admin
+
+            [
+                'name' => 'Admin1',
+                'username' => 'admin1',
+                'email' => 'admin1@gmail.com',
+                'password' => Hash::make('111'),
+                'role' => 'admin',
+                'status' => 'active'
+            ],
+
+            // Agent
+
+            [
+                'name' => 'Agent1',
+                'username' => 'agent1',
+                'email' => 'agent1@gmail.com',
+                'password' => Hash::make('111'),
+                'role' => 'agent',
+                'status' => 'active'
+            ],
+
+            // User
+
+            [
+                'name' => 'User1',
+                'username' => 'user1',
+                'email' => 'user1@gmail.com',
+                'password' => Hash::make('111'),
+                'role' => 'user',
+                'status' => 'active'
+            ],
+
 
 
             ]);
